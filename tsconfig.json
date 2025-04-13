@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "declaration": true,             // still needed for tsup to emit .d.ts
+    "emitDeclarationOnly": true,     // optional, only emit .d.ts
+    "outDir": "dist"                 // matches tsup output
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "shadcn-modal-manager",
+  "version": "0.1.0",
+  "description": "Simple yet robust modal manager for ShadCN UI — built with pure React, fully typed, and dependency-free.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0",
+    "vaul": "^1.0.0",
+    "@radix-ui/react-dialog": "^1.0.0"
+  },
+  "keywords": [
+    "shadcn",
+    "modal",
+    "react",
+    "ui",
+    "manager"
+  ],
+  "author": "thund3rd3v",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.4.0"
+  }
+}
