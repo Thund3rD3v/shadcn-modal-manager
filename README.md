@@ -3,7 +3,7 @@
 > ⚠️ **This package is still under development and not yet published to NPM.**  
 > Please do **not attempt to install it** until version `1.0.0` is released.
 
-A lightweight, React-based modal manager built to seamlessly integrate with [shadcn/ui](https://ui.shadcn.dev). Manage multiple modals globally using simple hooks, with zero context boilerplate in your components.
+A lightweight, React-based modal manager built to seamlessly integrate with [shadcn/ui](https://ui.shadcn.com). Manage multiple modals globally using simple hooks, with zero context boilerplate in your components.
 
 ---
 
